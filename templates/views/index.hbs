@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="/css/styles.css">
+    <!--in this context the root folder is the folder containing the html file -->
+    
+    <title>
+        Home
+    </title>
+    <link rel="icon" href="/img/weather-title-icon.png">
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+
+
+
+        <form action="">
+            <input placeholder = "Location">
+            <button>Search</button>
+        </form>
+
+        <p id="message-1"></p>
+        <p id="message-2"></p>
+
+        <img src="/img/pic2_motogp_03092016.jpg">
+
+    </div>
+
+    {{>footer}}
+
+    <script src="/js/app.js"></script>
+
+</body>
+
+</html>

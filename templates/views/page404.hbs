@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="/css/styles.css">
+    <!--in this context the root folder is the folder containing the html file -->
+    <title>
+        404
+    </title>
+    <link rel="icon" href="/img/weather-title-icon.png">
+</head>
+
+<body>
+
+    {{!-- this is syntax to render a partial --}}
+    <div class="main-content">
+        {{>header}}
+        <p>{{errorMessage}}</p>
+
+    </div>
+
+
+    {{>footer}}
+</body>
+
+
+</html>
